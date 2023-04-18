@@ -12,4 +12,4 @@ For our project, we created a self-driving robot that navigates an office space 
 
 **Preview:**
 
-![Alt text](robot1.jpg?raw=true "Title")
+![Alt text](left_view.png?raw=true "Title")
