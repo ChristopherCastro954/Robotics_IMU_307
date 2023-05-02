@@ -1,3 +1,4 @@
+#thi code is for tile/wood floor operation, the commented lines within the Movement function are PWMs for carpet navigation
 #include <Servo.h>
 //camera servos
 Servo servo1,servo2;
@@ -230,6 +231,7 @@ void SonarSensor(int trigPin,int echoPin)
   duration = pulseIn(echoPin, HIGH);
   distance = (duration * 0.034 / 2)/2.54;
 }
+
 
 void Movement(){
   //corner right
